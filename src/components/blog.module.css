@@ -1,0 +1,54 @@
+.blogcontainer {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.box {
+  width: 50%;
+  height: auto;
+  text-align: left;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.desc {
+  width: 90%;
+  color: rgb(111, 109, 109);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.author {
+  color: rgb(164, 6, 6);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.datetime {
+  color: rgb(148, 146, 146);
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.articleheader {
+  font-weight: bold;
+  margin: 5px 0px;
+  font-size: 20px;
+}
+
+.tag {
+  font-size: 14px;
+  color: rgb(111, 109, 109);
+  font-weight: bold;
+  border-width: 1px;
+  border-color: rgb(56, 56, 56);
+  padding: 5px;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-radius: 40px;
+}

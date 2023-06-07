@@ -1,0 +1,31 @@
+.navcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 100px;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.menucontainer {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
+}
+
+.menu {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.menu:hover {
+  text-decoration: none;
+  color: #6b6b6b;
+  font-weight: bolder;
+}

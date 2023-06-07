@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.blogcontainer {
+  width: 800px;
+  margin: auto;
+}
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+.blog {
+  font-size: 18px;
+  font-weight: bold;
+  color: grey;
+}
+
+.viewall {
+  color: rgb(164, 6, 6);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 60%;
+  justify-content: center;
+  margin: auto;
+}
